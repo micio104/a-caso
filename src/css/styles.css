@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(10, 10, 10);
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    margin: 10px;
+overflow-x:  hidden;
+}
+
+.boxArticolo{
+    border: rgb(0, 0, 0) 3px dashed;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+}
+
+.boxBarra{
+    border: rgb(0, 0, 0) 3px dashed;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+}
+
+#noSottolineato{
+    text-decoration: none;
+}
+#immagine{
+    width: 50%;
+
+}
+
+nav{
+    width: 100vw;
+    height: 4rem;  
+}
+nav h1{
+    padding: 6px;
+    padding-left: 10px;
+}
+nav ul{
+    list-style: none;
+    float: right;
+    transform: translate(-2rem, -4rem);
+}
+nav ul li{
+    display: inline-block;
+    transition: .7s;
+}
+nav ul li a{
+    padding: 30px;
+    padding-right: 30px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: rgb(255, 153, 0);
+}
