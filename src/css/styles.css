@@ -10,8 +10,8 @@ overflow-x:  hidden;
     border-radius: 25px;
     padding: 10px;
     margin: 5px;
-    background-color: rgb(51, 51, 51);
     color: rgb(255, 255, 255);
+    text-align: center;
 }
 
 .boxBarra{
@@ -21,6 +21,10 @@ overflow-x:  hidden;
     margin: 5px;
     background-color: rgb(51, 51, 51);
     color: rgb(255, 255, 255);
+}
+
+.blockquote{
+    text-align: center;
 }
 
 #noSottolineato{
